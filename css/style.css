@@ -113,9 +113,10 @@ div {
     overflow: auto;
 }
 
-.introduction .content {
-	text-align: center;
+.introduction h1, .introduction h3 {
 	color: white;
+	text-align: center;
+	font-weight: 300;
 }
 
 .introduction h1 {
@@ -124,7 +125,7 @@ div {
 }
 
 .introduction h3 {
-	margin top: 1.25rem;
+	margin-top: 1.25rem;
 	font-size: 1.563rem;
 }
 
@@ -139,12 +140,17 @@ div {
     font-size: 1.125rem;
     color: white;
     margin: 0 auto;
-    margin top: 1.563rem;
+    margin-top: 1.563rem;
+}
+
+.introduction .content {
+	text-align: center;
 }
 
 .introduction .big-button:hover {
 	cursor: pointer;
-    background-color: #333333;
+    background-color: #d9400e;
+    border-color: #cf3d0e;
 }
 
 
