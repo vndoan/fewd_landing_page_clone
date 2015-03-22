@@ -70,10 +70,9 @@ div {
 
 .top-navigation {
     background-color: #fff;
-}
-
-.top-navigation > .content {
-    height: 70px;
+    position: fixed;
+    width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .logo {
@@ -152,6 +151,28 @@ div {
     background-color: #d9400e;
     border-color: #cf3d0e;
 }
+/* .cases {
+	background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+} */
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 3.125rem;
+	font-weight: 300;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.cases .devices h3 {
+    font-size: 1.563rem;
+    font-weight: 400;
+    margin: 2.5rem 0 1.875rem;
+}
 
 .cases .content {
 	color: #1d1e21;
@@ -159,11 +180,7 @@ div {
 	margin-top: 7.875rem;
 }
 
-.cases h2 {
-	font-size: 2.75rem;
-	margin: 1.625rem 3.125rem;
-	font-weight: 300;
-}
+
 
 
 
