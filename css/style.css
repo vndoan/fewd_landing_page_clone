@@ -52,14 +52,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*
 body {
     background-color: LightGray;
 }
 div {
     border: 1px solid Chocolate;
 }
-
+*/
 /* Navigation Section */
 .content {
     padding: 0 15px;
@@ -155,6 +155,7 @@ div {
 	background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
+    margin-bottom: -6rem;
 }
 
 .cases h2 {
@@ -230,6 +231,11 @@ div {
     color: #3f729b;
 }
 
+.social .copy {
+    color: #838994;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
 
 
 
