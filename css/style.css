@@ -151,11 +151,11 @@ div {
     background-color: #d9400e;
     border-color: #cf3d0e;
 }
-/* .cases {
+.cases {
 	background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
-} */
+}
 
 .cases h2 {
 	font-size: 2.75rem;
@@ -178,6 +178,56 @@ div {
 	color: #1d1e21;
 	text-align: center;
 	margin-top: 7.875rem;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social .content {
+	text-align: center;
+	margin-top: 7.875rem;
+}
+
+.social hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eaebec -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin: 1.313rem 0;
+}	
+
+.social .icons > li {
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
+	display: inline-block;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+    padding: 0.625rem 0;
+    text-align: center;
+    width: 2.5rem;
+}
+
+.social .icons > li:hover {
+	cursor: pointer;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
 }
 
 
